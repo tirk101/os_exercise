@@ -7,7 +7,7 @@ namespace OS_Sync_Ex_03
     class Program
     {
         private static int sum = 0;
-        private static object xLock = new object();
+        private static object _Lock = new object();
 
         static void plus(){
             int i;
